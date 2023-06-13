@@ -1,0 +1,51 @@
+.heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin:0px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: white;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(173, 173, 173);
+    margin: 10px;
+    font-family: monospace;
+}
+
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 10px solid rgb(173, 173, 173);
+    margin: 10px;
+    background-color:  #505e4d;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.helpful__message {
+    text-align: center;
+    color: red;
+    height: 10px;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=date]{
+    height: 1px;
+  
+}

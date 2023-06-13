@@ -1,0 +1,38 @@
+.list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: aliceblue;
+   padding : 0px 10px;
+   border-radius: 5px;
+}
+
+.list__item__content {
+    margin: 0px;
+}
+
+.list__item div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 2px;
+}
+
+
+.by__date {
+    font-size: 10px;
+    color: grey;
+    margin: 0px;
+}
+
+span {
+    cursor: pointer;
+}

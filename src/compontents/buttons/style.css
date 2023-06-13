@@ -1,0 +1,29 @@
+.button {
+  
+  margin-top: 10px;
+}
+
+.sub__script {
+    color: white;
+    background-color: rgb(2, 15, 5);
+    font-size: 9px;
+    width: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    left:100px;
+   bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type=button] {
+    border: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+   margin-bottom: 0cqb;
+}
